@@ -8,7 +8,7 @@ setup(
     install_requires=[], 
     entry_points={
         'console_scripts': [
-            'clean-folder = clean_folder.clean_folder.clean:main' #(модуль.підмодуль.функція:функція-запуску)
+            'clean-folder = clean_folder.clean:main' #(модуль.підмодуль.функція:функція-запуску)
         ]
     }
 )
